@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="text/javascript" src="myjs.js"></script>  
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" type="image/x-icon" href="images/peace.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="header">
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+    </div>
+
+    <div class="main-container">
+        <div id="result">
+            <h2 id="choice">Choose your weapon</h2>
+            <h3 id="choice2">First to score 5 points wins the game</h3>
+            <div id="choices">
+                <div class="box1">
+                    <img id="img1" src="images/qmark.png">
+                </div>
+                <div class="box1">
+                    <img id="img2" src="images/qmark.png">
+                </div>
+            </div>
+            <div id="scores">
+                <h2 id="player">Player: </h2>
+                <h2 id="comp">Computer: </h2>
+            </div>
+        </div>
     
+        <div class="buttons">
+            <button id="btn1" class="box2"><img src="images/rock.png"></button>
+            <button id="btn2" class="box2"><img src="images/paper.png"></button>
+            <button id="btn3" class="box2"><img src="images/scissors.png"></button>
+        </div>
+    </div>
+
+    <footer>Copyright © Aaron John. Inspired by michalosman.</footer>
+
+    <script type="text/javascript" src="myjs.js"></script> 
 </body>
+
 </html>

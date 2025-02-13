@@ -1,0 +1,102 @@
+:root {
+    --primary-yellow: #FFD700; /* Bright yellow */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 120px;
+    background-color: #16253c;
+}
+
+.title{
+    font-size: 32px;
+    color: var(--primary-yellow);
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    padding-top: 2.9rem;
+}
+
+.main-container{
+    text-align: center;
+    height: 600px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3.5rem;
+    background-color: rgb(42, 50, 56);
+    color: white;
+}
+
+#choice{
+    font-size: 32px;
+    padding-bottom: 0.7rem;
+}
+
+#choice2{
+    font-size: 20px;
+}
+
+#choices{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 3rem;
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 3rem;
+}
+
+.buttons{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.box1{
+    height: 100px;
+    width: 120px;
+    border-radius: 10px;
+    /* background-color: #b4c1c6; */
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 img{
+    height: 100px;
+    width: 100px;
+}
+
+.box2{
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #cdd2d4;
+    border-style: none;
+}
+
+.buttons img{
+    height: 100px;
+    width: 100px;
+}
+
+button:hover{
+    background-color: #d9dee3;
+}
+
+footer{
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(42, 50, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
